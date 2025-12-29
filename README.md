@@ -1,6 +1,6 @@
 # 🛡️ AI Surveillance Dashboard (Demo & Guide)
 
-![alt text](<main.png>)
+![alt text](<public/main.png>)
 
 WEBSITE LINK-https://user-activity-monitoring-system.vercel.app
 
