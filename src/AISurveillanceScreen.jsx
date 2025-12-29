@@ -7,6 +7,8 @@ export default function AISurveillanceScreen() {
   const [mouse, setMouse] = useState({ x: 0, y: 0 });
   const [blink, setBlink] = useState(false);
 
+const navigate = useNavigate();
+
   // Track mouse position
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -76,6 +78,7 @@ export default function AISurveillanceScreen() {
       </div>
 
       {/* Button */}
+      
       <button
   style={styles.button}
   onClick={() => navigate("/DashboardGuide")}
