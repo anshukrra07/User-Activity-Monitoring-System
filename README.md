@@ -1,5 +1,10 @@
 # 🛡️ AI Surveillance Dashboard (Demo & Guide)
 
+![alt text](<main.png>)
+
+WEBSITE LINK-https://user-activity-monitoring-system.vercel.app
+
+
 > ⚠️ **Important Notice**  
 > This repository contains a **demo and guided walkthrough** of an AI Surveillance Dashboard.  
 > The **actual production dashboard, live monitoring data, and internal APIs are intentionally not shared** for security and privacy reasons.
