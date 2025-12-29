@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import AccessController from "./AccessController.jsx";
 
 export default function AISurveillanceScreen() {
@@ -77,9 +78,7 @@ export default function AISurveillanceScreen() {
       {/* Button */}
       <button
   style={styles.button}
-  onClick={() => {
-    window.location.href = "/DashboardGuide";
-  }}
+  onClick={() => navigate("/DashboardGuide")}
 >
   ENTER CONTROL DASHBOARD →
 </button>
